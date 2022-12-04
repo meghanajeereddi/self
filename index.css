@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    background: url(https://wallpaperaccess.com/full/1349214.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: black;
+    opacity: .7;
+}
+.icon{
+    height: 75px;
+    width: 200px;
+    text-align: left;
+    margin-left: 20px;
+}
+.logo{
+    font-size: 80px;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+ul{
+    display: inline-flex;
+}
+ul li{
+    font-size: 35px;
+    list-style: none;
+    margin-left: 35px;
+    font-family: cursive;   
+}
+.navbar{
+    display: inline-flex;
+}
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+ul li a:hover{
+    color: darkmagenta;
+}
+.search{
+   margin-top: 40px;
+   margin-left: 80px;
+}
+.srch{
+    width: 100px;
+    height:40px;
+    font-family: 'Times New Roman';
+    background: transparent;
+    border: 2px solid white;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    border: 2px solid whitesmoke;
+   
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    background-color: black;
+}
+.srch:focus{
+    background-color: silver;
+}
+.content{
+    color:white;
+    width:1700px;
+}
+.content h1{
+    padding-left: 50px;
+    padding-top: 125px;
+    font-size: 50px;
+}
+.content .para{
+    padding-left:50px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-family:Georgia, Times, 'Times New Roman';
+    letter-spacing: 2px;
+}
+.content .para span{
+    font-family:  cursive;
+    font-size: 40px;
+}
+.content .js{
+    width: 80px;
+    height: 40px;
+    border: 2px solid whitesmoke;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;  
+    margin-left: 700px;
+    cursor: pointer;
+}
+.js:hover{
+    background-color: black;
+}
+.form{
+    height:210px;
+    width:300px;
+    background-color: rgb(150, 171, 172);
+    position:absolute;
+    top:200px;
+    right:40px;
+}
+h2{
+    font-size: 50px;
+    color: black;
+}
+.inp{
+    margin-left: 10px;
+    width: 150px;
+    height:30px;
+    font-family: 'Times New Roman';
+    background: transparent;
+    border: 2px solid #211d1d;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.btnn{
+    width: 60px;
+    height: 30px;
+    border: 2px solid cadetblue;
+    background-color: rgb(6, 71, 74);
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.btnn:focus{
+    background-color: black;
+}
+.lp{
+    margin-left: 70px;
+    color:black;
+}
+.atag{
+    margin-left: 70px;
+    color:darkblue;
+    font-weight: bolder;
+}
+::placeholder{
+    color: black;
+}
+button:hover{
+    background-color: rgb(105, 59, 68);
+}
